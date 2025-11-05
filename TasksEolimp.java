@@ -38,7 +38,7 @@ import java.util.Scanner;
     public class Main {
         public static void main(String[] args) {
             Scanner console = new Scanner(System.in);
-            int n = console.nextInt(); //кількість елементів масиву
+            int n = console.nextInt();
 
             int[] arr = new int[n];
             for (int i = 0; i < n; i++) {
