@@ -5,7 +5,7 @@ import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
-        //1. створення нового списку масиву (ArrayList), додавання кількох кольорів (рядків) і виведення колекції
+        //1. cтворення нового списку масиву (ArrayList), додавання кількох кольорів (рядків) і виведення колекції
         ArrayList<String> color = new ArrayList<String>();
         color.add("red");
         color.add("blue");
