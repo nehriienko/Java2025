@@ -36,15 +36,10 @@ public class Main {
 
         System.out.println("пункт 7:");
 
-        LinkedList<Integer> list1 = new LinkedList<Integer>();
-        list1.add(1);
-        list1.add(2);
-        list1.add(4);
-
-        LinkedList<Integer> list2 = new LinkedList<Integer>();
-        list2.add(1);
-        list2.add(3);
-        list2.add(4);
+        LinkedList<Integer> list1 = new LinkedList<>();
+        LinkedList<Integer> list2 = new LinkedList<>();
+        Collections.addAll(list1, 1, 2, 4);
+        Collections.addAll(list2, 1, 3, 4);
 
         list1.addAll(list2);
         Collections.sort(list1);
